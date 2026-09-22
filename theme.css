@@ -149,6 +149,19 @@
   --halloween-candle: #e8a040;
   --halloween-shadow: #f0e4d0;
   --halloween-cream: #3a2210;
+
+  /* Code syntax highlighting (light theme) — high contrast */
+  --code-normal: #000000;
+  --code-comment: #808080;
+  --code-function: #0000dd;
+  --code-keyword: #dd0000;
+  --code-string: #008800;
+  --code-value: #dd6600;
+  --code-operator: #333333;
+  --code-tag: #cc0000;
+  --code-property: #6600cc;
+  --code-important: #dd0000;
+  --code-constant: #0044aa;
 }
 
 /* ===== HARDCODED ACCENT COLORS ===== */
