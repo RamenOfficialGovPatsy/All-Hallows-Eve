@@ -1,0 +1,56 @@
+# Obsidian
+.obsidian/
+.trash/
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Build tools
+dist/
+build/
+*.min.css
+*.min.js
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE and editors
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Backups
+*.bak
+*.backup
+*.old
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
