@@ -527,15 +527,38 @@ details summary:hover {
 /* ===== DIVIDERS ===== */
 hr {
   border: none;
+  height: 24px;
+  background: none;
+  position: relative;
+  margin: 2em 0;
+}
+
+hr::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
   height: 2px;
   background: linear-gradient(
     to right,
     transparent,
     var(--halloween-pumpkin),
-    var(--halloween-pumpkin-dark),
     transparent
   );
-  margin: 2em 0;
+  transform: translateY(-50%);
+}
+
+hr::after {
+  content: "🎃 🎃 🎃";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  letter-spacing: 4px;
+  background-color: var(--background-primary);
+  padding: 0 8px;
 }
 
 /* ===== BUTTONS ===== */
