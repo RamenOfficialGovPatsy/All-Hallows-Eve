@@ -12,7 +12,7 @@ A Halloween theme for Obsidian. Pumpkin orange, candle glow, and spooky elegance
 - [🎨 Color Palette](#color-palette)
 - [🛠️ Customization](#customization)
 - [💡 Share Your Ideas](#ideas)
-- [✨ Extra Effects You Can Add](#effects)
+- [✨ Extra Effects](#effects)
 - [📝 Credits](#credits)
 
 ---
@@ -28,6 +28,7 @@ A Halloween theme for Obsidian. Pumpkin orange, candle glow, and spooky elegance
 - 🎯 WCAG-compliant contrast for accessibility
 - ✨ High contrast code syntax highlighting
 - 🖊️ Smooth animations and transitions
+- 🎃 Pumpkin dividers with three pumpkins in the center
 
 ---
 
@@ -135,23 +136,19 @@ Your ideas help make this theme spookier for everyone! 🎃👻
 
 <a id="effects"></a>
 
-## ✨ Planned Effects
+## ✨ Extra Effects
 
-These are effects that will be added to the theme in future updates:
+Effects that can be added to the theme. Checked items are already implemented.
 
-| Effect                             | Description                               | How to implement                      |
-| :--------------------------------- | :---------------------------------------- | :------------------------------------ |
-| 🎃 **Icons in collapsible blocks** | 🎃 (collapsed) / 👻 (expanded)            | `summary::before { content: "🎃 "; }` |
-| 🕸️ **Spider web borders**          | Light web pattern on borders              | `border-image` with SVG web           |
-| 🕯️ **Candle flicker**              | Pulsing glow on active tabs               | `@keyframes` with `box-shadow`        |
-| 👻 **Ghostly appearance**          | Smooth note appearance with slight offset | `@keyframes fadeIn` with `translateY` |
-| 🦇 **Bat cursor**                  | Bat icon instead of cursor                | `cursor: url(...)`                    |
-| 🍬 **Colored tags**                | Different colors for different tag types  | `a.tag[href*="..."]`                  |
-| 🌕 **Moon in corner**              | Semi-transparent moon in top-right corner | `::after` with `position: fixed`      |
-| 💀 **Skulls as list markers**      | Custom `::marker`                         | `ul li::marker { content: "💀 "; }`   |
-| 🎃 **Pumpkin dividers**            | Gradient with pumpkin tones               | `background: linear-gradient(...)`    |
-
-Stay tuned for updates! 🎃👻
+- [x] 🎃 **Pumpkin dividers** — gradient with three pumpkins in the center
+- [ ] 🎃 **Icons in collapsible blocks** — 🎃 (collapsed) / 👻 (expanded)
+- [ ] 🕸️ **Spider web borders** — light web pattern on borders
+- [ ] 🕯️ **Candle flicker** — pulsing glow on active tabs
+- [ ] 👻 **Ghostly appearance** — smooth note appearance with slight offset
+- [ ] 🦇 **Bat cursor** — bat icon instead of cursor
+- [ ] 🍬 **Colored tags** — different colors for different tag types
+- [ ] 🌕 **Moon in corner** — semi-transparent moon in top-right corner
+- [ ] 💀 **Skulls as list markers** — custom `::marker`
 
 ---
 
